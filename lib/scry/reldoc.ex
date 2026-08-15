@@ -1,7 +1,6 @@
 defmodule Scry.Reldoc do
   @moduledoc """
-  The `relational` + `document` composite kind for
-  [Scry](https://github.com/joetjen/scry) (impl_spec.md §2/§6) -- a
+  The `relational` + `document` composite kind for Scry -- a
   relational-shaped nested-`SELECT` correlation (Scry's own `JOIN`
   equivalent) alongside `DEEP`/`PARENT`/`SIBLINGS`/`ANCESTORS`.
 
@@ -25,7 +24,7 @@ defmodule Scry.Reldoc do
   package's own `CHANGELOG.md` for the full story. This package's own
   end-to-end test is what actually proves the fix holds for the
   relational-plus-document combination specifically, not just asserted
-  from `impl_spec.md`'s own prose.
+  from the spec's own prose.
 
   `parse/1` mirrors `Scry.Document.parse/1` (there is no grammar
   fragment of this package's own to compose in); use `Scry.Document.

@@ -85,7 +85,7 @@ defmodule Scry.Reldoc.MixProject do
   end
 
   defp description do
-    "The relational + document composite kind for Scry (impl_spec.md §2/§6) -- a thin " <>
+    "The relational + document composite kind for Scry -- a thin " <>
       "delegate to scry_document (relational contributes no grammar/execution vocabulary " <>
       "of its own), with a real end-to-end test proving nested-SELECT correlation " <>
       "composes correctly alongside PARENT/SIBLINGS/ANCESTORS, not just asserting it does."
